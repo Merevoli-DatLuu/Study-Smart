@@ -13,5 +13,5 @@ tasks:
     openMode: split-right
 ports:
   - port: 8000
-    onOpen: ignore
+    onOpen: open-browser
     visibility: public
