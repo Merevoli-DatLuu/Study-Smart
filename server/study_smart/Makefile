@@ -5,7 +5,7 @@ up:
 	docker-compose -p study_smart up
 
 up-gitpod:
-	docker-compose -f docker-compose.gidpod.yml -p study_smart up 
+	docker-compose -f docker-compose.gitpod.yml -p study_smart up 
 
 down:
 	docker-compose -p study_smart down
