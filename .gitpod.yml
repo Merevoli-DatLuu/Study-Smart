@@ -2,7 +2,7 @@ tasks:
   - name: Start back-end
     before: cd server/study_smart
     init: make build
-    command: make up-gitpod
+    command: make up
     openMode: split-left
 
   - name: Init data
