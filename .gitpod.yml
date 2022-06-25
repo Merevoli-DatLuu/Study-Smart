@@ -7,7 +7,7 @@ tasks:
 
   - name: Init data
     init: |
-      gp await-port 8000
+      gp ports await 8000
       sleep 40
       cd server/study_smart && make init
     openMode: split-right
