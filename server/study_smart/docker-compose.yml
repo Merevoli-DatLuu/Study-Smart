@@ -1,0 +1,30 @@
+version: "3.0"
+services:
+  sst-database:
+    image: postgres:latest
+    networks:
+      - sst_net
+    environment:
+      POSTGRES_DB: study_smart_db
+      POSTGRES_USER: study_smart_user
+      POSTGRES_PASSWORD: study_smart_pass
+    ports:
+      - 5433:5432
+
+  sst-backend:
+    image: sst_backend:latest
+    container_name: sst_backend
+    volumes:
+      - ./:/app
+    networks:
+      - sst_net
+    env_file:
+      - dev.env
+    command: pipenv run python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "0.0.0.0:8000:8000"
+    depends_on:
+      - sst-database
+
+networks:
+  sst_net: null
