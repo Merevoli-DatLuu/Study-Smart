@@ -1,0 +1,8 @@
+{
+  "name": "study-smart",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.miniapp.studysmart",
+    "buildNumber": 1
+  }
+}
