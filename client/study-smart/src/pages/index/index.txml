@@ -1,20 +1,32 @@
-<view>This is blank page</view>
+<view id="pomodoro">
 
-<view class="circular">
-  <view class="inner"></view>
-  <view class="outer"></view>
-  <view class="numb">
-     0%
-  </view>
-  <view class="circle">
-     <view class="dot">
+  <view class="circular">
+    <view class="inner"></view>
+    <view class="outer"></view>
+    <view class="numb" description="my.percent">
+      0%
+    </view>
+    <view class="circle">
+      <view class="dot">
         <text> </text>
-     </view>
-     <view class="bar left">
+      </view>
+      <view class="bar left">
         <view class="progress"></view>
-     </view>
-     <view class="bar right">
+      </view>
+      <view class="bar right">
         <view class="progress"></view>
-     </view>
+      </view>
+    </view>
   </view>
+  <view class="pomodoro--description">
+    <text class="h1">Pomotroid \n</text>
+
+    <text class="p">
+      A simple, configurable and visually pleasing Pomodoro timer.
+    </text>
   </view>
+  <view class="footer">
+    <view > <icon class="play-icon" type="play_glyph" size="25" /></view>
+   
+  </view>
+</view>

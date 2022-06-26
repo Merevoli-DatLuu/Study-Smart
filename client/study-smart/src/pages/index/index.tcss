@@ -1,4 +1,32 @@
-view{}
+
+#pomodoro{
+ 
+  height:100%;
+  width: 100%;
+  display:flex;
+flex-direction: column;  
+align-items: center;
+}
+.h1{
+  font-weight:400;
+  color:#05ec8c;
+  font-size: 1rem;
+  text-align: center;
+}
+.p{
+  color:#f6f2eb;
+  line-height: 0.4rem;
+display:block;
+font-size: 0.3rem;
+text-align: center;
+}
+.pomodoro--description
+{
+  display:flex;
+  flex-direction: column;  
+  margin: 15px;
+}
+
 .circular{
   height: 100px;
   width: 100px;
@@ -51,8 +79,10 @@ view{}
   border-radius: 100%;
   clip: rect(0px, 50px, 100px, 0px);
 }
+/* color circle  */
 .circle .bar .progress, .dot span{
-  background: #4158d0;
+  background:#05ec8c;
+
 }
 .circle .left .progress{
   z-index: 1;
@@ -106,4 +136,12 @@ view{}
     transform: rotate(270deg);
     z-index: 4;
   }
+}
+.play-icon{
+  margin: 25px;
+  text-align: center;
+  background-color: #f6f2eb;
+  padding:20px;
+  border-radius: 100%;
+  border: 0.1875em solid #f6f2eb;
 }
