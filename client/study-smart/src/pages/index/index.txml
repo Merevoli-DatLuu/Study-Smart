@@ -1,1 +1,20 @@
 <view>This is blank page</view>
+
+<view class="circular">
+  <view class="inner"></view>
+  <view class="outer"></view>
+  <view class="numb">
+     0%
+  </view>
+  <view class="circle">
+     <view class="dot">
+        <text> </text>
+     </view>
+     <view class="bar left">
+        <view class="progress"></view>
+     </view>
+     <view class="bar right">
+        <view class="progress"></view>
+     </view>
+  </view>
+  </view>
