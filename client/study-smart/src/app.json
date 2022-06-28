@@ -1,8 +1,29 @@
 {
-  "pages": [
-    "pages/index/index"
-  ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "Study smart"
+  },
+  "pages": [
+    "pages/timer/index",
+    "pages/config/index"
+  ],
+
+  "tabBar": {
+    "borderTopActiveColor": "#1A94FF",
+    "borderTopColor": "#EBEBF0",
+    "items": [
+      {
+        "name": "Timer",
+        "pagePath": "pages/timer/index",
+        "icon": "assets/timer.png",
+        "icon-active": "assets/timer.png"
+      },
+      {
+        "name": "Config",
+        "pagePath": "pages/config/index",
+        "icon": "assets/config.png",
+        "icon-active": "assets/config.png"
+        
+      }
+    ]
   }
 }

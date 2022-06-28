@@ -1,0 +1,21 @@
+<view class="timer-container">
+  <image  class="progress"/>
+  <view class="timer-couter">
+    <couter-component/>
+  </view>
+</view>
+
+<view class="timer-button-container" >
+  <view class="timer-button-list">
+
+    <view tiki:for="{{button}}" class="timer-button-item"  >
+      <button > <icon  size="24" color="#07172B" type="{{item.icon}}" /></button>
+     </view>
+  </view>
+  <view class="timer-button-session">
+    <view>1/4</view>
+    <!-- <view>Session</view> -->
+    <text style="color: yellow;" onTap="">Reset</text>
+  </view>
+</view>
+
