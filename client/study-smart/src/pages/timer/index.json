@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "couter-component": "/component/CouterTimer/index"
+   
+  }
+}

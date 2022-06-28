@@ -1,0 +1,31 @@
+.timer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+  .progress{
+   border: 10px solid #007bc7;;
+   border-radius: 100%;
+   position: relative;
+  }
+
+  .timer-couter{
+    position: absolute;
+  }
+
+  .timer-button-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 50px;
+  
+  }
+  .timer-button-list{
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .timer-button-item{
+    margin-right: 10px;
+  }

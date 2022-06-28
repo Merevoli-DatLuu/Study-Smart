@@ -1,0 +1,17 @@
+<view class="config-container">
+
+  <view class="config-header">
+     <text>
+    Rule
+  </text>
+  <button size="small">Restore Default</button>
+</view>
+
+  <view class="config-body">
+
+    <inputrange-component value="{{value}}"/>
+
+  </view>
+
+</view>
+

@@ -1,0 +1,15 @@
+.config-container{
+  max-width: 338px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.config-header{
+  display: flex;
+  justify-content: space-between;
+}
+.config-body{
+  margin-top: 20px;
+}
+.config-range{
+  margin-bottom: 15px;
+}
