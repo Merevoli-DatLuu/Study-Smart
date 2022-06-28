@@ -1,6 +1,6 @@
 <view class="config-range">
   <text>Stay Focued</text>
-  <slider value="{{value}}" />
+  <slider  value="{{value}}" />
 </view>
 <view class="config-range">
   <text>Short Break</text>
@@ -12,5 +12,5 @@
 </view>
 <view class="config-range">
   <text>Session Round</text>
-  <slider value="{{value}}" />
+  <slider  value="{{value}}" />
 </view>

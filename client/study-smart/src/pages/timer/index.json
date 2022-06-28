@@ -2,5 +2,6 @@
   "usingComponents": {
     "couter-component": "/component/CouterTimer/index"
    
-  }
+  },
+  "backgroundColor" :"#07172B"
 }

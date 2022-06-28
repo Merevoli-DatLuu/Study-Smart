@@ -4,11 +4,10 @@
      <text>
     Rule
   </text>
-  <button size="small">Restore Default</button>
+  <button size="small" onTap="onRestoreDefault">Restore Default</button>
 </view>
 
   <view class="config-body">
-
     <inputrange-component value="{{value}}"/>
 
   </view>

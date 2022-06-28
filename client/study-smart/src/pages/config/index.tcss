@@ -6,9 +6,11 @@
 .config-header{
   display: flex;
   justify-content: space-between;
+  color: white;
 }
 .config-body{
   margin-top: 20px;
+  color: white;
 }
 .config-range{
   margin-bottom: 15px;

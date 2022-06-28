@@ -13,11 +13,16 @@
     "items": [
       {
         "name": "Timer",
-        "pagePath": "pages/timer/index"
+        "pagePath": "pages/timer/index",
+        "icon": "assets/timer.png",
+        "icon-active": "assets/timer.png"
       },
       {
         "name": "Config",
-        "pagePath": "pages/config/index"
+        "pagePath": "pages/config/index",
+        "icon": "assets/config.png",
+        "icon-active": "assets/config.png"
+        
       }
     ]
   }

@@ -1,6 +1,6 @@
 Page({
   data: {
-    value: 10
+   value:10
   },
 
   onLoad(query) {
@@ -12,5 +12,8 @@ Page({
   onHide() {
   },
   onUnload() {
+  },
+  onRestoreDefault(){
+    this.setData({value:0})
   }
 });
