@@ -12,5 +12,5 @@
 </view>
 <view class="config-range">
   <text>Session Round</text>
-  <slider  value="{{value}}" />
+  <slider value="{{value}}" />
 </view>
