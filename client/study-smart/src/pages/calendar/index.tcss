@@ -1,0 +1,10 @@
+.banner{
+  display:flex;
+  width: 100%;
+
+}
+.banner-calendar
+{
+  flex:1;
+  height: 150px;
+}

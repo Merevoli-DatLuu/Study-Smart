@@ -4,13 +4,20 @@
   },
   "pages": [
     "pages/timer/index",
-    "pages/config/index"
+    "pages/config/index",
+    "pages/calendar/index"
   ],
 
   "tabBar": {
     "borderTopActiveColor": "#1A94FF",
     "borderTopColor": "#EBEBF0",
     "items": [
+      {
+        "name": "calendar",
+        "pagePath": "pages/calendar/index",
+        "icon": "assets/config.png",
+        "icon-active": "assets/config.png" 
+      },
       {
         "name": "Timer",
         "pagePath": "pages/timer/index",
@@ -21,8 +28,7 @@
         "name": "Config",
         "pagePath": "pages/config/index",
         "icon": "assets/config.png",
-        "icon-active": "assets/config.png"
-        
+        "icon-active": "assets/config.png" 
       }
     ]
   }

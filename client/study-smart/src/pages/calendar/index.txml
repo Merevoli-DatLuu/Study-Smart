@@ -1,0 +1,7 @@
+<view class="banner">
+  <image src="/assets/banner1.png" class ="banner-calendar"></image>
+</view>
+<view>
+<calendarmonth-component/>
+</view>
+
