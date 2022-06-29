@@ -1,7 +1,18 @@
+<view class="menu ">
+  <view class="menu-icon" onTap="onMenu" data-name="icon">
+    <icon type="components" />
+  </view>
+  <view class="menu-components" style="display: {{isOpenMenu}}" onTap="" data-name="component">
+    <view>Trang chủ</view>
+    <view>Events today</view>
+    <view>Pomodoro</view>
+  </view>
+</view>
+<view id="content" onTap="closeMenu">
 <view class="banner">
-  <image src="/assets/banner1.png" class ="banner-calendar"></image>
+  <image src="/assets/banner1.png" class="banner-calendar"></image>
 </view>
-<view>
-<calendarmonth-component/>
+<view class="calendar">
+  <calendarmonth-component />
 </view>
-
+</view>

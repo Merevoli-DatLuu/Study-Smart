@@ -1,5 +1,5 @@
-<view class="container">
- <view class="date date-container">
+
+ <view class="date-container">
     <view class="day">1</view>
     <view class="day">2</view>
     <view class="day">3</view>
@@ -31,6 +31,5 @@
     <view class="day">29</view>
     <view class="day">30</view>
     <view class="day">31</view>
-  
+    <view class="day">1</view>
   </view>
-</view>
