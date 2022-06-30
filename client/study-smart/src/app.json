@@ -5,13 +5,20 @@
   "pages": [
     "pages/timer/index",
     "pages/config/index",
-    "pages/calendar/index"
+    "pages/calendar/index",
+    "pages/eventsToday/index"
   ],
 
   "tabBar": {
     "borderTopActiveColor": "#1A94FF",
     "borderTopColor": "#EBEBF0",
     "items": [
+      {
+        "name": "Day",
+        "pagePath": "pages/eventsToday/index",
+        "icon": "assets/config.png",
+        "icon-active": "assets/config.png" 
+      },
       {
         "name": "calendar",
         "pagePath": "pages/calendar/index",

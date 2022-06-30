@@ -4,7 +4,7 @@ page{
 }
 .menu{
   position:fixed;
-
+top: 4%;
   height:100%;
   width: 50%;
 }
@@ -21,7 +21,7 @@ page{
   line-height: 40px;
 }
 .menu-icon{
-
+position: absolute;
 }
 .menu-icon:hover,
 .menu-components view:hover{

@@ -1,15 +1,18 @@
 Page({
   data: {
    value:10,
-   isOpenMenu:"none"
+   isOpenMenu:"none",
+   check: false
   },
   onLoad(query) {
   },
   onReady() {
   },
   onShow() {
+    
   },
   onHide() {
+ 
   },
   onUnload() {
   },
@@ -24,6 +27,9 @@ Page({
   {
     this.setData({isOpenMenu:"none"})
     console.log("click")
+  },
+  toggleMenu(){
+    this.setData({...this.data,check : !this.check})
   }
   
 });

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "calendarday-component": "/components/day/calendarDay/index",
+    "noteday-component": "/components/day/noteDay/index"
+     
+    }
+  
+  
+}
