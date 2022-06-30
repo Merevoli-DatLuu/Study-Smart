@@ -1,15 +1,17 @@
-
+<view class="menu "  >
   <view class="menu-icon"  data-name="icon" onTap="toggleMenu">
     <icon type="components" />
   </view>
-<view class="menu " tiki:if="{{check}}" >
-  <view class="menu-components"  onTap="" data-name="component">
+  
+  <view class="menu-components" style="display:{{isOpenMenu}}"
+   onTap="" data-name="component">
     <view>Trang chủ</view>
     <view>Events today</view>
     <view>Pomodoro</view>
+
   </view>
 </view>
-<block id="content" >
+<view id="content" onTap="closeMenu" >
 <view class="banner">
   <image src="/assets/banner1.png" class="banner-calendar"></image>
 </view>
@@ -17,4 +19,4 @@
   <calendarmonth-component />
 </view>
 
-</block>
+</view>

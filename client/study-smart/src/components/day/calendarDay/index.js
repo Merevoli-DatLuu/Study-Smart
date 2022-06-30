@@ -18,21 +18,22 @@ Component({
   didMount() {
 
     this.setData({ days: this.getToday() });
+
   },
-  didUpdate() { },
+  didUpdate() {},
   didUnmount() {},
 
   // các methods
   methods: {
     getToday() {
       let arr = [];
-     this.checkCurrentDay();
+      this.checkCurrentDay();
       let daysInMonth, i;
       daysInMonth = new Date(currentYear, currentMonth, 0).getDate();
 
       //counting day before
       for (i = -2; currentDay + i <= 0; ++i) {
-        arr.push(String((daysInMonth + currentDay + i) % (daysInMonth+1)));
+        arr.push(String((daysInMonth + currentDay + i) % (daysInMonth + 1)));
       }
       //counting day after
       daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
@@ -59,22 +60,19 @@ Component({
       this.setData({ days: this.getToday() });
     },
     onTouchEnd() {
-
       this.setData({ positionCenter: currentDay });
     },
-    checkCurrentDay()
-    {
-    
-    let daysInMonth=new Date(currentYear, currentMonth+1, 0).getDate(); ;
-            //currentMonth -> MonthNow-1;
-            if (currentDay <= 0) {
-              daysInMonth=new Date(currentYear, currentMonth, 0).getDate();
-              --currentMonth;
-              currentDay += daysInMonth;
-            } else if      (currentDay > daysInMonth) {
-              ++currentMonth;
-              currentDay %= daysInMonth;
-            }
-    }
-  },
+    checkCurrentDay() {
+      let daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+      //currentMonth -> MonthNow-1;
+      if (currentDay <= 0) {
+        daysInMonth = new Date(currentYear, currentMonth, 0).getDate();
+        --currentMonth;
+        currentDay += daysInMonth;
+      } else if (currentDay > daysInMonth) {
+        ++currentMonth;
+        currentDay %= daysInMonth;
+      }
+    },
+  }
 });

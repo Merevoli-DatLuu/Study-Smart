@@ -15,7 +15,7 @@ Component({
 
   // các hàm life cycles
   didMount() {
-    this.setData({ days: this.getToday() });
+
   },
   didUpdate() {},
   didUnmount() {},

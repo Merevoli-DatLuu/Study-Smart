@@ -13,12 +13,15 @@
 
 .day{
   font-size: 10px;
-
+  line-height: 48px;
     width: 20%;
     height: 50px;
     border: 1px solid #fff;
     text-align: center;
 
+}
+.day:hover{
+  opacity: 0.4;
 }
 
 .day.active {
