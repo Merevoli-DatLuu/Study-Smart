@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "inputrange-component": "/components/inputRange/index"
+   
+  },
+  "backgroundColor" :"#07172B"
+  
+}

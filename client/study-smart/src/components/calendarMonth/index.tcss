@@ -1,0 +1,33 @@
+*{
+  font-family: 'Open Sans', 'sans-serif','roboto';
+  box-sizing: border-box;
+}
+
+
+.date-container{
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid #fff;
+}
+
+
+.day{
+  font-size: 10px;
+  line-height: 48px;
+    width: 20%;
+    height: 50px;
+    border: 1px solid #fff;
+    text-align: center;
+
+}
+.day:hover{
+  opacity: 0.4;
+}
+
+.day.active {
+    background-image: linear-gradient(to right,
+            #aa076b 0%,
+            #61045f 51%,
+            #aa076b 100%);
+    color: #fff;
+}

@@ -1,0 +1,22 @@
+<scroll-view
+scroll-x="{{true}}"
+scroll-with-animation="{{true}}"
+onScrollToLower="nextDays"
+onScrollToUpper="lastDays"
+onTouchEnd="onTouchEnd"
+lower-threshold="0"
+upper-threshold="0"
+scroll-into-view="day-{{positionCenter}}"
+>
+<view class="date-container">
+<view tiki:for="{{days}}" >
+  <view class="day {{(index==2) ? 'active': '' }}" 
+  id="day-{{item}}" >
+  {{item}}
+  </view>
+</view>
+
+
+</view>
+
+</scroll-view>

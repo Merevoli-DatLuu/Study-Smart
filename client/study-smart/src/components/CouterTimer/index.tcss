@@ -1,0 +1,8 @@
+.couter-time{
+  font-size: 50px;
+  
+}
+
+.couter-status{
+  margin-left: 20px;
+}

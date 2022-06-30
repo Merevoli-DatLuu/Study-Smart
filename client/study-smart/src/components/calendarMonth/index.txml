@@ -1,0 +1,12 @@
+
+  <view class="date-container" >
+ <block tiki:for="{{month}}" >
+    <view tiki:if="{{checkCurrentDay===item}}" class="day active" data-day="{{item}}" onTap=" handleChangeDate">
+      {{item}}
+    </view>
+    <view tiki:else class="day" data-day="{{item}}" onTap="handleChangeDate">
+      {{item}}
+    </view>
+  </block>
+</view>
+ 

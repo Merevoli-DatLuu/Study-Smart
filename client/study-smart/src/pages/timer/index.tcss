@@ -1,0 +1,49 @@
+*{color:#fff;
+box-sizing: border-box;
+}
+
+.timer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  width: 100%;
+}
+  .progress{
+  
+   border: 5px solid #007bc7;
+   padding: 152px;
+   border-radius: 50%;
+   position: relative;
+  
+  }
+
+  .timer-couter{
+    position: absolute;
+  }
+
+  .timer-button-container{
+  display:flex;
+    margin-top: 30px;
+    flex-direction: column;
+  
+  }
+  .timer-button-session{
+    padding:0 10px;
+    align-self: flex-start;
+    text-align: center;
+    flex:1;
+  }
+  .timer-button-list{   
+    flex:1;
+    display:flex;
+    margin-left:10px;
+    width: 100%;
+    justify-content:space-evenly;
+    margin-bottom: 10px;
+  }
+
+
+  .timer-button-item{
+    margin-right: 20px;
+  }

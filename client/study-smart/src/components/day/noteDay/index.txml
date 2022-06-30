@@ -1,0 +1,22 @@
+
+<view class ="event-container">
+  <view class = "event-time">
+    <view class ="start-time">
+      {{note.startTime}}
+    </view>
+    <view class ="end-time" >
+      {{note.endTime}}
+    </view>
+  </view>
+  <view class = "event-note">
+   <view class ="title-note">
+    {{note.title}}
+   </view>
+   <view class ="paragraph-note">
+    {{note.paragraph}}
+   </view>
+  </view>
+</view>
+<view >
+  <button class="but text right">+</button>
+</view>

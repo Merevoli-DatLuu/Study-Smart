@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "calendarmonth-component": "/components/calendarMonth/index"
+   
+  },
+  "backgroundColor" :"#07172B",
+  "defaultTitle": "Calendar",
+  
+  "titleColor": "#000",
+  "disableHardwareBack": "NO"
+
+}
