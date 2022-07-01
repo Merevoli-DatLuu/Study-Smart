@@ -1,3 +1,6 @@
-{"component": true
-  
+{"component": true,
+  "usingComponents": {
+    "popup": "@tiki.vn/tini-ui/es/popup/index",
+    "block-header": "components/block-header/index"
+  }
 }

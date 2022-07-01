@@ -12,8 +12,5 @@ Page({
   onHide() {
   },
   onUnload() {
-  },
-  onRestoreDefault(){
-    this.setData({value:0})
   }
 });

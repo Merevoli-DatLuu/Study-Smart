@@ -1,6 +1,54 @@
+<view>
+  <popup position="{{position}}" show="{{show}}" mask="{{mask}}" disableScroll zIndex="2" onClose="onCancel">
+   <view class="popup">
+    <view class="popup-container">
+      <form onSubmit="onSubmit" onReset="onReset">
+        <view class="block">
+        <label>
+          <text class="popup-container-title">Title \n</text>
+          <input name="title" placeholder="title" />
+        </label>
+          <label>
+            <text class="popup-container-description">\nDescription\n</text>
+            <input name="description" placeholder="description"/>
+          </label>
+          <!-- pickerView -->
+          <label>
+            <text class="popup-container-StartTime">\nStartTime\n</text>
+            <input name="StartTime" placeholder="StartTime"/>
+          </label>
+          <label>
+            <text class="popup-container-EndTime">\nEndTime\n</text>
+            <input name="EndTime" placeholder="EndTime"/>
+          </label>
+          <label>
+            <text class="popup-container-label">\nlabel\n</text>
+            <input name="label" placeholder="label"/>
+          </label>
+          <label>
+            <text class="popup-container-Color">\nColor\n</text>
+            <input name="Color" placeholder="Color"/>
+          </label>
+  
+        </view>
+        <view class="popup-container-buttons">
+          <button form-type="submit">Submit</button>
+          <button form-type="reset">Reset</button>
+        </view>
 
-  <view class="date-container" >
- <block tiki:for="{{month}}" >
+</form>
+
+  
+
+</view>
+
+</view>
+
+</popup>
+</view>
+
+<view class="date-container">
+  <block tiki:for="{{month}}">
     <view tiki:if="{{checkCurrentDay===item}}" class="day active" data-day="{{item}}" onTap=" handleChangeDate">
       {{item}}
     </view>
@@ -9,4 +57,3 @@
     </view>
   </block>
 </view>
- 
